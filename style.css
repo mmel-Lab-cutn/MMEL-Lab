@@ -145,4 +145,34 @@ nav a:hover {
   font-weight: 500;
   color: #333;
 }
+.members-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+  justify-items: center;
+  margin-top: 30px;
+}
+
+.member {
+  text-align: center;
+}
+
+.member img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10%;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+
+.member img:hover {
+  transform: scale(1.05);
+}
+
+.member p {
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 16px;
+}
 
