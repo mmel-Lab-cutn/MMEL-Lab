@@ -158,12 +158,12 @@ nav a:hover {
 }
 
 .member img {
-  width: 200px;
-  height: 200px;
+  width: 120px;        /* passport width */
+  height: 150px;       /* passport height */
   object-fit: cover;
-  border-radius: 10%;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-  transition: transform 0.3s ease;
+  border-radius: 6px;  /* slight rounded corner */
+  box-shadow: 0 3px 6px rgba(0,0,0,0.25);
+
 }
 
 .member img:hover {
