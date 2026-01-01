@@ -179,8 +179,10 @@ nav a:hover {
 .page-bg {
   position: relative;
   min-height: 100vh;
+  .page-bg {
   background: url("../images/images/labphoto.jpg") no-repeat center center / cover;
 }
+
 
 /* overlay to soften image */
 .page-bg::before {
