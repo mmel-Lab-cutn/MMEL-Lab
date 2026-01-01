@@ -175,4 +175,25 @@ nav a:hover {
   font-weight: 600;
   font-size: 16px;
 }
+/* ===== Light professional background ===== */
+.page-bg {
+  position: relative;
+  min-height: 100vh;
+  background: (images/images/labphoto.jpg) no-repeat center center / cover;
+}
+
+/* overlay to soften image */
+.page-bg::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.85); /* white overlay */
+  z-index: 0;
+}
+
+/* keep content above overlay */
+.page-bg > * {
+  position: relative;
+  z-index: 1;
+}
 
